@@ -17,6 +17,9 @@
 		2C36D4B127ACDC220090028B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C36D48727ACDC1F0090028B /* ContentView.swift */; };
 		2C36D4B227ACDC220090028B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C36D48827ACDC210090028B /* Assets.xcassets */; };
 		2C36D4B327ACDC220090028B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C36D48827ACDC210090028B /* Assets.xcassets */; };
+		2C36D4C327ACDC370090028B /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C36D4C227ACDC370090028B /* Calculator.swift */; };
+		2C36D4C427ACDC370090028B /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C36D4C227ACDC370090028B /* Calculator.swift */; };
+		2C36D4C527ACDC370090028B /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C36D4C227ACDC370090028B /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		2C36D4A627ACDC220090028B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C36D4AA27ACDC220090028B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2C36D4AC27ACDC220090028B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		2C36D4C227ACDC370090028B /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			children = (
 				2C36D48627ACDC1F0090028B /* HW_2_Harmonic_SeriesApp.swift */,
 				2C36D48727ACDC1F0090028B /* ContentView.swift */,
+				2C36D4C227ACDC370090028B /* Calculator.swift */,
 				2C36D48827ACDC210090028B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -301,6 +306,7 @@
 			files = (
 				2C36D4B027ACDC220090028B /* ContentView.swift in Sources */,
 				2C36D4AE27ACDC220090028B /* HW_2_Harmonic_SeriesApp.swift in Sources */,
+				2C36D4C327ACDC370090028B /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +316,7 @@
 			files = (
 				2C36D4B127ACDC220090028B /* ContentView.swift in Sources */,
 				2C36D4AF27ACDC220090028B /* HW_2_Harmonic_SeriesApp.swift in Sources */,
+				2C36D4C427ACDC370090028B /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +335,7 @@
 			files = (
 				2C36D4AD27ACDC220090028B /* Tests_macOSLaunchTests.swift in Sources */,
 				2C36D4AB27ACDC220090028B /* Tests_macOS.swift in Sources */,
+				2C36D4C527ACDC370090028B /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
